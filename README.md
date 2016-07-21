@@ -43,11 +43,13 @@ if (g.hasWon()) {
 
 Game list:
 * DiceGame
-..* OneDiceGame
-..* TwoDiceGame
-..* ...
+  * OneDiceGame
+  * TwoDiceGame
+  * ...
 * EvenOrOddGame
-*
+* TossAPennyGame
+  * TossAFakePennyGame
+* ...
 
 
 
