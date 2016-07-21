@@ -63,3 +63,19 @@ ClassName
 	attribute: value
 	...
 ```
+
+Given the object type you have to create a utility class to store the current Object instance to a file, and another one to restore its state.
+
+Example bean:
+
+```java
+class Pippo {
+	private String name;	
+
+	public Pippo() {}
+
+	public String getName() { return name; }
+
+	public void setName() { return name; }
+}
+```
