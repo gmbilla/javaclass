@@ -52,8 +52,16 @@ Game list:
 * ...
 
 
+## IO utility
+ 
+Write a simple service class to handle file IO. It could for instance represent a custom handler for Java logger.
 
-# Encoder
+The class must have a `write(String msg)` method that takes as input the _message_ to be written to file.
+This method optionally takes as arguments a _path_ to the file to be written and a _flag_ to define if the content should be replaced or appended.
+In addition to the `write` method we need a `read(String path)` method to read the content of the file.
+
+
+## Encoder
 
 Given a generic JavaBean object serialize/deserialize it to a file with this format:
 
